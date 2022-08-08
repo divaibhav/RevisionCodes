@@ -94,9 +94,12 @@ public class ArrayDemo {
 
         int sum = 0;
         for (int i = 0; i < marks1.length; i++) {
+            int sumRow = 0;
             for (int j = 0; j < marks1[i].length; j++) {
                sum = sum + marks1[i][j];
+               sumRow = sumRow + marks1[i][j];
             }
+            System.out.println("sumRow = " + sumRow);
 
         }
         System.out.println("sum = " + sum);
@@ -104,4 +107,4 @@ public class ArrayDemo {
     }
 }
 //Create an 2D array with 5 rows and 5 columns, print the array, and calculate the sum of all the elements
-//print sum
+//print sum of all the elements of rows
