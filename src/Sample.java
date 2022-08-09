@@ -18,4 +18,7 @@ public class Sample {
        }
        return false;
     }
+    public float division(float num1, float num2){
+        return num1 / num2;
+    }
 }
