@@ -49,7 +49,7 @@ class SampleTest {
         float num1 = 10.0f;
         float num2 = 3.0f;
         float actual = sample.division(num1,num2);
-        assertEquals(3.0f,actual, .3333333F);
+        assertEquals(3.33f,actual,0.1);
     }
 
     @AfterEach
